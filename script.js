@@ -1,10 +1,11 @@
+
 class App extends React.Component{
    constructor(props){
      super(props);
      this.state = {
-       langLogos = {
-       }
-     }
+       langLogos : importLangLogos(),
+      }
+      console.WriteLine(this.state.langLogos);
    }
   logoGridItem(index){
     let id = Object.keys(this.state.langLogos)[index] + "logoGridItem";
