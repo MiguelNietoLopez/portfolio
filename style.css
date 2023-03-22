@@ -1,4 +1,40 @@
 html, body {
+  margin: 0;
+  padding: 0;
   height: 100%;
   width: 100%;
+}
+.logoGridItem {
+  height: 30vmax;    
+  width: 30vmax;
+}
+#logoGrid{
+  margin-left: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+}
+.logoGridItem:hover{
+  filter: grayscale(60%);
+  background-color: lightgray;
+}
+.hoverOverlay{
+  width: 100%;
+  height: 30vmax;
+  font-size: 5vmax;
+  text-align: center;
+  line-height: 30vmax;
+  top: -102.1%;
+  position: relative;
+  opacity: 0;
+  color: ;
+}
+.hoverOverlay:hover {
+  opacity: 1;
+  backdrop-filter: blur(2px) grayscale(70%);
+}
+.gridContainer {
+  margin-top: 10%;
+  height: 30vmax;
 }
