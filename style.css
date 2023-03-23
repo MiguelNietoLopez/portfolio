@@ -28,7 +28,6 @@ html, body {
   top: -102.1%;
   position: relative;
   opacity: 0;
-  color: ;
 }
 .hoverOverlay:hover {
   opacity: 1;

@@ -12,4 +12,4 @@ class App extends React.Component {
 }
 
 const node = ReactDOM.createRoot(document.getElementById("root"));
-node.render(<App />)
+node.render(<App/>)

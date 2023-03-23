@@ -1,11 +1,10 @@
-export default class mainBody extends React.Component{
+export class mainBody extends React.Component{
   constructor(props)
   {
     super(props);
   }
   render(){
-      return
-    (
+      return(
       <div id="mainBody">
         <h1 id="nameTitle">Miguel Nieto Lopez</h1>
         <h2 id="nameSubtitle">Web Developer</h2>
