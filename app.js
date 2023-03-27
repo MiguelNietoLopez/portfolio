@@ -1,3 +1,4 @@
+import {LogoGrid} from "LogoGrid.js";
 class App extends React.Component {
   constructor(props) {
     super(props);
