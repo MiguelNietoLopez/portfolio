@@ -10,6 +10,9 @@ export default function Header() {
     const addToHeader = [["Home", "/"], ["Projects", "/projects"], ["About", "/about"], ["Contact", "/contact"]];
     return(
         <nav id="navbar">
+        <ul>
+            <li>Portfolio</li>
+        </ul>
         <ul id="navbarList">
             {addToHeader.filter(x => x[1] != location).map(x => 
                 <li className="navbarItem" id={x[0] + "NavbarItem"} key={x[0] + "NavbarItem"}>

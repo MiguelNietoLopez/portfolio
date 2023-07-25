@@ -1,11 +1,10 @@
-import useSWR from 'swr';
-const fetcher = (url) => fetch(url).then((res) => res.json());
-export default function Projects()
-{
-    const {data,error} = useSWR('/api/languagesToRender', fetcher)
-    console.log(data)
-    return(
+import Image from 'next/image';
+export default function Projects() {
+    const makeProjectDiv = () =>{}
+    return (
         <>
+        <div id="catCorpLLCProjectDiv" className='ProjectDiv'> 
+        </div>         
         </>
     )
 }
