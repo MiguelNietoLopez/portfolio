@@ -1,6 +1,6 @@
 import Header from "./header"
 import Footer from "./footer"
-
+import '../styles/globals.css'
 export default function LayoutA({children})
 {
     return(
