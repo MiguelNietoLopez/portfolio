@@ -3,7 +3,7 @@ const largeCarMainPage = require("../public/largecarmainpage.jpg");
 export default function home() {
   return (
     <div id="homeMain" className="">
-      <div id="catImageDiv" className="bg-[url('../public/largecarmainpage.jpg')] bg-center bg-no-repeat m-0 p-0 bg-cover w-full h-96">
+      <div id="catImageDiv" className="bg-[url('../public/largecarmainpage.jpg')] bg-center bg-local bg-no-repeat m-0 p-0 bg-cover w-full h-96">
       </div>
       <div id="homeTitleDiv" className="TitleDiv HomeDiv text-center mt-10 mb-3 font-serif ">
         <h1 id="homeTitleH" className="HomeEl TitleH Header text-8xl">First Name Last Name</h1>
@@ -14,15 +14,15 @@ export default function home() {
           Motivated and Hard Working Individual who is Always Looking to Improve My Skills and Learn New Technologies
         </p>
       </div>
-      <div id="homeSkillsDiv" className="HomeDiv ml-5">
-        <div id="homeSkillsLayer1" className="HomeEl HomeSkillsLayers">
-          <div id="homeSkillsLayerItemJavascript" className="HomeEl HomeSkillsLayerItems">Javascript</div>
-          <div id="homeSkillsLayerDotA" className="HomeEl HomeSkillsLayerDots"></div>
-          <div id="homeSkillsLayerItemHTML" className="HomeEl HomeSkillsLayerItems">HTML</div>
-          <div id="homeSkillsLayerDotA" className="HomeEl HomeSkillsLayerDots"></div>
-          <div id="homeSkillsLayerItemCSS" className="HomeEl HomeSkillsLayerItems">CSS</div>
+      <div id="homeSkillsDiv" className="HomeDiv mb-6 flex  flex-col text-center justify-center flex-nowrap">
+        <div id="homeSkillsLayer1" className="HomeEl space-x-2 mb-2 justify-center flex flex-row HomeSkillsLayers">
+          <div id="homeSkillsLayerItemJavascript" className="HomeEl h-auto bg-light HomeSkillsLayerItems">Javascript</div>
+          <div id="homeSkillsLayerDotA" className="HomeEl bg-cyan-700 HomeSkillsLayerDots"></div>
+          <div id="homeSkillsLayerItemHTML" className="HomeEl bg-cyan-700 HomeSkillsLayerItems">HTML</div>
+          <div id="homeSkillsLayerDotA" className="HomeEl  bg-cyan-700   HomeSkillsLayerDots"></div>
+          <div id="homeSkillsLayerItemCSS" className="HomeEl bg-cyan-700 HomeSkillsLayerItems">CSS</div>
         </div>
-        <div id="homeSkillsLayer2" className="HomeEl HomeSkillsLayers">
+        <div id="homeSkillsLayer2" className="HomeEl space-x-2 mb-2 justify-center flex flex-row HomeSkillsLayers">
           <div id="homeSkillsLayerItemMongoDB" className="HomeEl HomeSkillsLayerItems">MongoDB</div>
           <div id="homeSkillsLayerDotA" className="HomeEl HomeSkillsLayerDots"></div>
           <div id="homeSkillsLayerItemExpressJS" className="HomeEl HomeSkillsLayerItems">ExpressJS</div>
@@ -31,7 +31,7 @@ export default function home() {
           <div id="homeSkillsLayerDotA" className="HomeEl HomeSkillsLayerDots"></div>
           <div id="homeSkillsLayerItemNodeJS" className="HomeEl HomeSkillsLayerItems">NodeJS</div>
         </div>
-        <div id="homeSkillsLayer3" className="HomeEl HomeSkillsLayers">
+        <div id="homeSkillsLayer3" className="HomeEl space-x-2 mb-2 flex justify-center flex-row HomeSkillsLayers">
           <div id="homeSkillsLayerItemNextJS" className="HomeEl HomeSkillsLayerItems">NextJS</div>
           <div id="homeSkillsLayerDotA" className="HomeEl HomeSkillsLayerDots"></div>
           <div id="homeSkillsLayerItemSWR" className="HomeEl HomeSkillsLayerItems">SWR</div>
